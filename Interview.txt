@@ -1,5 +1,13 @@
-1. What is Doctype
+1. What is Doctype?
+ ->  it represent the type of version that we are useing
+
+what is html tag?
+-> html is starting tag it contains two child tags 
+  -> head tag 
+  -> body tag 
 2. What are paired tags and unbpaired tags give some examples?
+-> the tags which have open and close tags are called praied tags
+ex:- 
 3. What is Block Level and What is Inline and describe them? 
    (Inline: b tag, string tag etc...)
 4. What are the type of headings?
