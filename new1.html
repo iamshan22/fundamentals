@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        header{
+            display: flex;
+            border: 1px solid black;
+            border-radius: 8px;
+            box-shadow: 0 0 10px;
+            padding: 10px;
+        }
+        #u1{
+             margin-top: 30px;
+             margin-left: 100px;
+        }
+        a{
+            margin-left: 10px;
+        }
+        #mobo{
+            border: 1px solid black;
+            width: 500px;
+            padding: 10px;
+            height: 30vh;
+        }
+
+    </style>
+</head>
+<body>
+   <header>
+    <h1>LOGIN</h1>
+    <nav>
+        <div id="u1">
+            <a href="">Home</a>
+            <a href="">career</a>
+            <a href="">servise</a>
+            <a href="">jobs</a>
+            <a href="">About us</a>
+        </div>
+    </nav>
+   </header>
+    <div id="mobo">
+        <Label for="mobileNo">Mobile No</Label>
+        <input type="text" placeholder="Enter mobile No" id="mobileNo">
+        <br>
+        <button onclick="sendOtp"> Send otp</button>
+    </div>
+    
+    <script>
+    var registeredUsers =[
+        {
+            name:'shankar',
+            mobileNo:1234567899
+        },
+        {
+            name:'raknahs',
+            mobileNo:123456789
+        }
+    ];
+
+    function sendOtp() {
+        console.log('inside send otp function');
+    }
+    </script>
+    
+</body>
+</html>

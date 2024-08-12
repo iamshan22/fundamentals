@@ -1,0 +1,8 @@
+Forms
+   
+   validation 
+     
+            Custom JS
+
+    1. each form field state
+    2. global form state: if any of the form feild is invalid,        
